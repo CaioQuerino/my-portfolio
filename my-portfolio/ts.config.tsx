@@ -1,6 +1,6 @@
 
 
-export interface types {
+export interface typesProps {
     author:string;
     occupation: string
 }

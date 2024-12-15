@@ -1,12 +1,13 @@
 import  './Footer.module.css'
 
-import {types} from '../../ts.config.tsx'
+import {typesProps} from '../../ts.config.tsx'
 
-export function Footer({author, occupation}: types) {
+export function Footer({ author, occupation }: typesProps) {
     return (
-        <>
-            <h1>{author}</h1>
-            <p>{occupation}</p>
-        </>
-    )
-}
+      <>
+        <p>Created by {author} - {occupation}</p>
+        <small>© 2024 All rights reserved.</small>
+      </>
+    );
+  }
+  

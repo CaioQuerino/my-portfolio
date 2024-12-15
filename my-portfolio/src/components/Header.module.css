@@ -1,7 +1,8 @@
 header {
 
-
+    display: grid;
     text-align: center;
+    margin: 20px 0;
 
     & h1 {
         font-size: 3.125rem;

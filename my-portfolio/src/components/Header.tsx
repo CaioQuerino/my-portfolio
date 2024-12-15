@@ -1,7 +1,8 @@
 import './header.module.css'
-import {types} from '../../ts.config.tsx'
+import { typesProps } from '../../ts.config'
 
-export function Header({author, occupation}: types) {
+
+export function Header({author, occupation}: typesProps) {
     return (
         <>
             <h1>{author}</h1>

@@ -1,8 +1,8 @@
-import './App.css'
+import './global.css'
 import { Footer } from './components/Footer.tsx'
 import { Header } from './components/Header.tsx'
+import { Main } from './components/Main.tsx'
 import { Nav } from './components/Nav.tsx'
-
 
 
 export function App() {
@@ -15,8 +15,9 @@ export function App() {
             <Nav />
         </nav>
       </header>
-      <section>
 
+      <section>
+          <Main />
       </section>
 
       <footer>
