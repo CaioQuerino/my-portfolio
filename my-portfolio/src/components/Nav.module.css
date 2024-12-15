@@ -1,0 +1,19 @@
+nav {
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+
+        gap: 2rem;
+
+        & li {
+            font-size: 1.2rem;
+
+            & a {
+                color: black;
+            }
+        }
+    }
+    
+}
