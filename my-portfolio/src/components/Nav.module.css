@@ -13,10 +13,11 @@ nav {
 
             & a {
                 color: black;
-                transition: .3s ease-in;
+                transition: .2s ease-in;
 
                 &:hover {
-                    color: rgb(235, 137, 137);
+                    color: rgb(8, 78, 32);
+                    font-weight: 400
                 }
             }
         }

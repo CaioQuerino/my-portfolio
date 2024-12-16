@@ -1,0 +1,30 @@
+.qualification {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .qualification h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .social-links img {
+    width: 40px; /* Tamanho das imagens */
+    height: 40px;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1); /* Leve aumento ao passar o mouse *
+  

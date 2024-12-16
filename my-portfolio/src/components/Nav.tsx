@@ -8,7 +8,7 @@ export function Nav() {
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#curriculo">Currículo</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#redes">Contato</a></li>
             </ul>
         </>
     )
