@@ -1,21 +1,9 @@
+import { projects } from '../../ts.config';
 import styles from './Projects.module.css';
 
 export function Projects() {
-  const projects = [
-    {
-      title: 'Marketplace',
-      description: 'Uma aplicação para organizar e gerenciar suas tarefas diárias.',
-      techStack: ['PHP', 'SQL', 'CSS', 'JavaScript'],
-      link: 'https://github.com/CaioQuerino/Visual_Tech',
-    },
-
-    {
-      title: 'Portfolio Pessoal',
-      description: 'Meu portfólio para exibir habilidades e projetos.',
-      techStack: ['REACT', 'CSS Module', 'JavaScript'],
-      link: 'https://github.com/CaioQuerino/my-portfolio',
-    },
-  ];
+  
+  projects
 
   return (
     <section id="projects" className={styles.projectsSection}>
