@@ -7,13 +7,11 @@ interface typesProps {
 export type OptionalProps = Partial<typesProps>;
 
 
-<<<<<<< HEAD
-=======
 export const projects = [
   {
     title: 'Marketplace',
     description: 'Uma aplicação para organizar e gerenciar suas tarefas diárias.',
-    techStack: ['PHP', 'SQL', 'HTML', 'CSS', 'JavaScript'],
+    techStack: ['PHP', 'SQL', 'API', 'HTML', 'CSS', 'JavaScript'],
     link: 'https://github.com/CaioQuerino/Visual_Tech',
   },
 
@@ -25,7 +23,6 @@ export const projects = [
   },
 ];
 
->>>>>>> b699196e5fc04c6409ada1de5499230cbc20263e
 export const bio = [
   {
     author: 'Caio Querino',
