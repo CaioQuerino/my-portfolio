@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import styles from './Projects.module.css';
 
 export function Projects() {
@@ -16,6 +17,14 @@ export function Projects() {
       link: 'https://github.com/CaioQuerino/my-portfolio',
     },
   ];
+=======
+import { projects } from '../../ts.config';
+import styles from './Projects.module.css';
+
+export function Projects() {
+  
+  projects
+>>>>>>> b699196e5fc04c6409ada1de5499230cbc20263e
 
   return (
     <section id="projects" className={styles.projectsSection}>

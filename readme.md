@@ -1,0 +1,1 @@
+[x] npm create vite@latest - Baixar o `React`
