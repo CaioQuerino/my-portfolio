@@ -1,0 +1,61 @@
+.projectsSection {
+      padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+.projectsGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.projectCard {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectCard h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.projectCard p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.techBadge {
+  background: #007acc;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.projectLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
