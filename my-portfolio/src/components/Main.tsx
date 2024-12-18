@@ -7,7 +7,7 @@ import { OptionalProps } from '../../ts.config.tsx'
 
 export function Main({description}: OptionalProps) {
     return(
-        <>
+        <section>
             <div id="sobre">
                 <About description={description}/>
             </div>
@@ -23,6 +23,6 @@ export function Main({description}: OptionalProps) {
             <div id="rede">
                 <Contacts />
             </div>
-        </>
+        </section>
     )
 }
