@@ -1,9 +1,9 @@
-import './Nav.module.css'
+import style from './Nav.module.css'
 
 export function Nav() {
     return (
         <>
-            <ul>
+            <ul className={style.list}>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>

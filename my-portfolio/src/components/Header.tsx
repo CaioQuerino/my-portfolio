@@ -1,12 +1,12 @@
-import './Header.module.css'
+import styles from './Header.module.css'
 import { OptionalProps } from '../../ts.config'
 
 
 export function Header({author, occupation}: OptionalProps) {
     return (
         <>
-            <h1>{author}</h1>
-            <p>{occupation}</p>
+            <h1 className={styles.author}>{author}</h1>
+            <p className={styles.occupation}>{occupation}</p>
         </>
     )
 }

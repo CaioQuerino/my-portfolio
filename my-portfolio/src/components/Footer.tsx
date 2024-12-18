@@ -1,8 +1,8 @@
 import  './Footer.module.css'
 
-import {typesProps} from '../../ts.config.tsx'
+import { OptionalProps } from '../../ts.config.tsx'
 
-export function Footer({ author, occupation }: typesProps) {
+export function Footer({ author, occupation }: OptionalProps ) {
     return (
       <>
         <p>Created by {author} - {occupation}</p>
