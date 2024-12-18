@@ -26,5 +26,6 @@
   }
   
   .social-links a:hover {
-    transform: scale(1.1); /* Leve aumento ao passar o mouse *
-  
+     /* Leve aumento ao passar o mouse */
+    transform: scale(1.1);
+  }
