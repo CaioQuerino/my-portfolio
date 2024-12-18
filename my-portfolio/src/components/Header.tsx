@@ -1,8 +1,8 @@
-import './header.module.css'
-import { typesProps } from '../../ts.config'
+import './Header.module.css'
+import { OptionalProps } from '../../ts.config'
 
 
-export function Header({author, occupation}: typesProps) {
+export function Header({author, occupation}: OptionalProps) {
     return (
         <>
             <h1>{author}</h1>

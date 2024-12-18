@@ -3,12 +3,13 @@ import { Projects } from './Projects.tsx'
 import { Contacts } from './Contacts.tsx'
 import { About } from './About.tsx'
 import { Skills } from './skills.tsx'
+import { OptionalProps } from '../../ts.config.tsx'
 
-export function Main() {
+export function Main({description}: OptionalProps) {
     return(
         <>
             <div id="sobre">
-                <About />
+                <About description={description}/>
             </div>
 
             <div id="habilidades">

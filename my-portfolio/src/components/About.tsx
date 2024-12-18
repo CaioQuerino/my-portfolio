@@ -1,13 +1,13 @@
+import { typesProps } from '../../ts.config'
 import './About.module.css'
 
-export function About() {
+export function About({description}:typesProps) {
     return(
         <>
             <section>
                 <h1>Sobre mim</h1>
                 <p>
-                    Sou um Desenvolvedor Front-End em início de carreira, com base sólida em HTML5, CSS3, JavaScript, PHP e foco atual em TypeScript e React. Tenho experiência na criação de interfaces responsivas e interativas, além de utilizar Figma para design de UI/UX e Git/GitHub para controle de versão. 
-                    Meu objetivo é evoluir para Desenvolvedor Full Cycle, expandindo meus conhecimentos para entregar soluções ainda mais completas. No momento, estou interessado em atuar como Desenvolvedor Back-End para ampliar minha experiência e habilidades.
+                    {description}
                 </p>
             </section>
         </>
