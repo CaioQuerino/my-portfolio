@@ -50,7 +50,7 @@ export function Skills() {
           {/* API */}
           <div className={styles.skill}>
             <img
-              src="https://static.vecteezy.com/system/resources/previews/008/679/477/original/api-line-two-color-icon-vector.jpg"
+              src="https://www.svgrepo.com/show/88703/api.svg"
               alt="API"
             />
             <p>API</p>

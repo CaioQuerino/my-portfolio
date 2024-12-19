@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #fff;
+    background: #ffffff7a;
     padding: 1rem;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -39,10 +39,12 @@
     width: 64px;
     height: 64px;
     margin-bottom: 0.5rem;
+    mix-blend-mode: multiply;
     transition: transform 0.3s ease;
   }
   
   .skill img:hover {
+    mix-blend-mode: multiply;
     transform: scale(1.1);
   }
   
