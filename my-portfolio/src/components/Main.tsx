@@ -1,4 +1,4 @@
-import './Main.module.css'
+import styles from'./Main.module.css'
 import { Projects } from './Projects.tsx'
 import { Contacts } from './Contacts.tsx'
 import { About } from './About.tsx'
@@ -7,7 +7,7 @@ import { OptionalProps } from '../../ts.config.tsx'
 
 export function Main({description}: OptionalProps) {
     return(
-        <section>
+        <section className={styles.content}>
             <div id="sobre">
                 <About description={description}/>
             </div>

@@ -4,9 +4,9 @@ import { OptionalProps } from '../../ts.config'
 
 export function Header({author, occupation}: OptionalProps) {
     return (
-        <>
+        <header>
             <h1 className={styles.author}>{author}</h1>
             <p className={styles.occupation}>{occupation}</p>
-        </>
+        </header>
     )
 }
