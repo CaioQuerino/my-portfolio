@@ -124,6 +124,15 @@ export function Skills() {
       <p>CSS Modules</p>
     </div>
 
+    {/* JSON */}
+    <div className={styles.skill}>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/136/136525.png"
+        alt="JSON"
+      />
+      <p>JSON</p>
+    </div>
+
   </div>
 </section>
 
