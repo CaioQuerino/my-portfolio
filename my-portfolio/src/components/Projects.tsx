@@ -7,7 +7,7 @@ export function Projects() {
 
   return (
     <section id="projects" className={styles.projectsSection}>
-      <h1>Meus Projetos</h1>
+      <h1 className={styles.title}>Meus Projetos</h1>
       <div className={styles.projectsGrid}>
         {projects.map((project, index) => (
           <div key={index} className={styles.projectCard}>
