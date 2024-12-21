@@ -10,7 +10,7 @@ export type OptionalProps = Partial<typesProps>;
 export const projects = [
   {
     title: 'Marketplace',
-    description: 'Uma aplicação para organizar e gerenciar suas tarefas diárias.',
+    description: 'Uma aplicação para organizar e gerenciar suas tarefas diárias, melhorias estão sendo aplicadas (React).',
     techStack: ['PHP', 'SQL', 'API', 'HTML', 'CSS', 'JavaScript'],
     link: 'https://github.com/CaioQuerino/Visual_Tech',
   },
